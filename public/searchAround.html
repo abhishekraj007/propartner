@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+	<meta charset="utf-8" />
+	<title>Search Around | ProFinder</title>
+	<!-- CSS -->
+
+	<link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css"/>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- <link rel="stylesheet" href="style2.css"/> -->
+
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	
+	<!-- <link  rel="stylesheet" type="text/css" /> -->
+	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyDrn605l7RPadiwdzsOlRw9O28lxfYBJ6s"></script>
+	<script src="js/script.js"></script>
+
+
+</head>
+<body>
+
+	<div class="search-around"> 
+
+		<div class="row">
+			<div class="col-md-3">
+
+				<div class="panel panel-default">
+					<!-- panel-title -->
+					<div class="panel-heading">
+
+						<h2 class="panel-title text-center">Search Anything</h2>
+					</div>
+
+					<!-- panel-body -->
+
+					<div class="panel-body" >
+						<div>
+
+							<div class="form-group">
+								<label>Address</label>
+								<input placeholder="enter any address (maybe zipcode)" id="gmap_where" type="text" name="gmap_where" class="form-control">
+
+							</div>
+
+							<div class="form-group"><button type="button" class="btn btn-danger btn-block" onClick="findAddress()">Search</button></div>
+
+							<div class="form-group" hidden>
+								<!-- <label for="gmap_keyword">Keyword (optional):</label> -->
+								<input class="form-control" id="gmap_keyword" type="text" name="gmap_keyword" />
+							</div>
+
+							<div class="form-group">
+
+								<label for="longitude">What you want to search?</label>
+								<select class="form-control" id="gmap_type">                        
+									<option value="atm">Atm</option>
+									<option value="airport">Airport</option>
+									<option value="bank">Bank</option>
+
+									<option value="bar">Bar</option>
+
+									<option value="cafe">Cafe</option>
+									<option value="food">Food</option>
+									<option value="restaurant">Restaurant</option>
+									<option value="hospital">Hospital</option>
+									<option value="police">Police</option>
+									<option value="store">Store</option>
+								</select>
+							</div>
+
+							<div class="form-group">
+
+								<label for="gmap_radius">Radius:</label>
+
+
+
+								<input class="form-control" type="number" id="gmap_radius" placeholder="Type radius in KM" />
+		                    <!-- <select class="form-control" id="gmap_radius" ng-model="formData.radius">
+		                        <option value="500">500</option>
+		                        <option value="1000">1000</option>
+		                        <option value="1500">1500</option>
+		                        <option value="5000">5000</option>
+		                    </select> -->
+
+		                </div>
+		                <input type="hidden" id="lat" name="lat" value="26.7143528" />
+		                <input type="hidden" id="lng" name="lng" value="75.0059731" />
+		                <button class="btn btn-danger btn-block" onClick="findPlaces()">Search</button> 
+
+
+		            </div>
+		        </div>
+		    </div>
+		</div>
+		<div class="col-md-9">
+			<div id="gmap_canvas"></div>	
+		</div>	
+	</div>
+	
+</div>
+
+<hr/>
+
+<div class="footer text-center">
+	<p>&copy; 2016- Profinder</p>
+</div>
+
+</body>
+</html>

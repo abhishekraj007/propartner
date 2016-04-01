@@ -1,0 +1,20 @@
+{
+  "name": "ProFinder",
+  "version": "1.0.0",
+  "description": "Find Programming mate around your local area",
+  "main": "server.js",
+  "repository": "https://github.com/abhishekraj007/propartner",
+  "author": "Abhishek Raj",
+  "dependencies": {
+    "express": "~4.7.2",
+    "mongoose": "~4.1.0",
+    "morgan": "~1.2.2",
+    "body-parser": "~1.5.2",
+    "jsonwebtoken": "^5.0.2",
+    "method-override": "~2.1.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "gulp": "^3.9.1"
+  }
+}
