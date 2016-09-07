@@ -56,7 +56,7 @@ Deployed on heruku for demonstration purpose. find Demo <a href="https://propart
 <pre> gulp serve</pre>
 
 
+<h2>Footnote</h2>
 
-
-
-
+App may contain bugs. I wanted to add some other features like instant chatting but didn't work the way I wanted it to work. If you can implement some other features and can enhance the code readability then feel free to fork and send pull request. 
+Also you can use the code in any of your projects without my permission.
