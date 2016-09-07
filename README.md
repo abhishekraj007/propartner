@@ -20,6 +20,16 @@ Deployed on heruku for demonstration purpose. find Demo <a href="https://propart
 </ul>
 
 
+
+<h2>Features Update</h2>
+
+<ul>
+<li> Find other stuff around you like ATM, Airport, Bar, Bank, Cafe, etc..</li>
+</ul>
+
+<img src="screenshots/findaround.png" alt="screenshot"/>
+
+
 <h2>Tools and Stack used</h2>
 
 <ul>
@@ -34,20 +44,19 @@ Deployed on heruku for demonstration purpose. find Demo <a href="https://propart
 
 <h2>How to download and run on your system</h2>
 
-<ul>
-<li> Clone the repository
+ Clone the repository
+
 <pre> git clone url</pre>
-</li>
 
-<li> Install dependencies
+ Install dependencies
 <pre> npm install</pre>
-</li>
 
-<li> Run
+
+ Run
 <pre> gulp serve</pre>
-</li>
 
-</ul>
+
+
 
 
 
