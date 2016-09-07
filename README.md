@@ -53,7 +53,7 @@ Deployed on heruku for demonstration purpose. find Demo <a href="https://propart
 
 
  Run
-<pre> gulp serve</pre>
+<pre> server</pre>
 
 
 <h2>Footnote</h2>
