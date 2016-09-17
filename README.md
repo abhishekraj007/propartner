@@ -13,10 +13,10 @@ Deployed on heruku for demonstration purpose. find Demo <a href="https://propart
 <h2>Features</h2>
 
 <ul>
-<li> Works in Real Time. No page refreshing..and time consuming things</li>
+<li> Works in Real Time. No page refreshing and time-consuming stuff</li>
 <li> Add yourself to the map and find other programmers</li>
-<li> Automatic location detection using geolocation. So that you couldn't fake your address.</li>
-<li> You can add you social profile.</li>
+<li> Automatic location detection using geolocation so that you couldn't fake your address</li>
+<li> Functionality to share your social profile.</li>
 </ul>
 
 
