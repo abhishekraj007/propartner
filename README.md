@@ -2,7 +2,7 @@
 
 This project was build during a campus hackathon in my college. We had given to build something unique so I tried to locate people on Google Map. 
 
-This app helps you to find programmers around your location or anywhere in the world accourding to filters. Even you can add yourself to this app so that other programmers near your home could find you and contact you in case of any programming related help or maybe to work on something cool.
+This app helps you to find programmers around your location or anywhere in the world according to filters. You can also add yourself to this app so that other programmers near your home could find you and contact you in the case of any programming related help or maybe to work on something cool.
 
 <img src="screenshots/find.png" alt="screenshot"/>
 <img src="screenshots/add.png" alt="screenshot"/>
